@@ -20,5 +20,10 @@ GameWindow {
   screenWidth: 960
   screenHeight: 640
 
-
+  MapView {
+    anchors.fill: parent
+    Map {
+      BasemapImageryWithLabels {}
+    }
+  }
 }
